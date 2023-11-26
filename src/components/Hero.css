@@ -1,0 +1,158 @@
+.hero-wrapper{
+    padding-bottom: 1rem;
+}
+.hero__heading{
+    padding-top: 5rem;
+    margin: auto 0;
+    font-weight: 500;
+    color: #fff;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero__btn{
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.hero__btn:hover {
+  transform: translateY(-1px);
+}
+
+.hero__btn:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  input[type="radio"][id^="cb"] {
+    display: none;
+  }
+  
+  .hero_body_label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .hero_body_label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  .hero_body_label img {
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+    height: 20rem;
+    width: 16rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+  .hero_body_label figure {
+    background: greenyellow;
+  }
+  
+  :checked + .hero_body_label {
+    border-color: #ddd;
+  }
+  
+  :checked + .hero_body_label:before {
+    content: "✓";
+    background-color: greenyellow;
+    transform: scale(1);
+  }
+  
+  :checked + .hero_body_label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+	opacity: .5;
+    background: greenyellow;
+  }
