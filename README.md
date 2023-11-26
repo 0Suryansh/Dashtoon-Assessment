@@ -1,7 +1,5 @@
 # Dashtoon Product Engineer Assessment
 
-### Please open Networks Tab if become impatient while Generating the comic as APIs are slow.
-
 ## Submitted: Suryansh Yadav, IIT Kanpur
 
 ### Demo: [a link](https://suryansh-yadav-dashtoon-pe.vercel.app/)
