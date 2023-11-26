@@ -1,12 +1,12 @@
 import React from "react";
-import './NavBar.css'
+import './Navbar.css'
 import { useNavigate } from "react-router-dom";
-const NavBar = () =>{
+const Navbar = () =>{
     let navigate = useNavigate();
     return (
         <>
             <nav>
-                <div className="navbar">
+                <div className="Navbar">
                     <div className="logo-with-text" onClick={()=>navigate('/')}>
                         <img className="logo" src="https://dashtoon.com/static/media/dashtoon-logo.a8078db575978f3185c8.png" alt="logo"/>
                             <span className="logo-text">DASHTOON Assessment (Engineer, Product)</span>
@@ -17,4 +17,4 @@ const NavBar = () =>{
     )
 }
 
-export default NavBar
+export default Navbar

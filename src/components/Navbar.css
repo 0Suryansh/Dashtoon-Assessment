@@ -6,7 +6,7 @@ nav{
     z-index: 50;
     background-color: #000;
 }
-.navbar{
+.Navbar{
     display: flex;
     justify-content: center;
     padding: 1% 2%;

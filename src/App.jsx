@@ -2,7 +2,7 @@ import './App.css'
 import {useCallback, useState} from 'react'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
-import NavBar from './components/Navbar'
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import WorkSpace1 from './components/WorkSpace1'
 import WorkSpace2 from './components/WorkSpace2'
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/workspace1" element={<WorkSpace1 hideSourceOnDrag={hideSourceOnDrag}/>} />
