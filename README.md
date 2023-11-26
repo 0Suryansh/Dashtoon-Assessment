@@ -1,8 +1,17 @@
-# React + Vite
+# Dashtoon Product Engineer Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Please open Networks Tab if become impatient while Generating the comic as APIs are slow.
 
-Currently, two official plugins are available:
+## Submitted: Suryansh Yadav, IIT Kanpur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Demo: [a link](https://suryansh-yadav-dashtoon-pe.vercel.app/)
+### ScreenShot of Application
+
+![image](https://github.com/0Suryansh/Dashtoon-Assessment/assets/75418521/a7647913-fe82-4d9a-814b-d7e3bf603a02)
+
+![image](https://github.com/0Suryansh/Dashtoon-Assessment/assets/75418521/eacae103-2796-4b3e-bb2b-1480695cb269)
+
+![image](https://github.com/0Suryansh/Dashtoon-Assessment/assets/75418521/9732369e-028e-409d-9e3d-a90f0fdf8502)
+
+
+
